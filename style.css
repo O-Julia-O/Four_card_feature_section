@@ -96,17 +96,20 @@ header {
 }
 
 .header__h1 {
-    font-size: 24px;
+    font-size: 36px;
     font-weight: 600;
+   letter-spacing: 0.25px;
 }
 
 .header__text {
+    letter-spacing: 0.25px;
     font-weight: 200;
     font-size: 24px;
     color: var(--Very-Dark-Blue);
 }
 
 .header__description {
+    line-height: 25px;
     font-size: 15px;
     color: var(--Very-Dark-Blue);
 }
