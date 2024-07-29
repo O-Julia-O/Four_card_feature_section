@@ -27,25 +27,34 @@ body {
     height: 100vh;
     display: grid;
     justify-content: center;
-    padding: 0 32px;
+    padding: 85px 32px;
+}
+
+.header__description {
+    margin-top: 16px;
 }
 
 .cards {
     display: grid;
     grid-auto-flow: row dense;
     gap: 24px;
+    align-items: center;
+    justify-items: center;
 }
 
 .card {
     padding: 28px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 8px;
+    max-width: 350px;
+    max-height: 250px;
 }
 
 .card .image {
     display: flex;
-    align-content: flex-end;
     justify-content: flex-end;
+    margin-top: 33px;
+
 }
 
 .supervisor {
@@ -80,8 +89,10 @@ body {
 }
 
 header {
+    margin: auto;
     text-align: center;
     margin-bottom: 76px;
+    max-width: 540px;
 }
 
 .header__h1 {
