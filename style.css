@@ -124,6 +124,10 @@ header {
         "supervisor karma calculator";
     }
 
+    h2 {
+        padding-bottom: 6px;
+    }
+
     .supervisor {
         grid-area: supervisor;
     }
