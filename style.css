@@ -44,8 +44,9 @@ body {
 
 .card {
     padding: 28px;
+    border-top: 4px solid;
     box-shadow: 0 15px 30px -11px rgba(131, 167, 210, 0.500);
-    border-radius: 8px;
+    border-radius: 4px;
     max-width: 350px;
     max-height: 250px;
 }
@@ -58,20 +59,20 @@ body {
 }
 
 .supervisor {
-    border-top: 4px solid var(--Cyan);
+    border-color: var(--Cyan);
 }
 
 
 .builder {
-    border-top: 4px solid var(--Red);
+    border-color: var(--Red);
 }
 
 .karma {
-    border-top: 4px solid var(--Orange);
+    border-color: var(--Orange);
 }
 
 .calculator {
-    border-top: 4px solid var(--Blue);
+    border-color: var(--Blue);
 }
 
 .card h2 {
