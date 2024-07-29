@@ -35,16 +35,22 @@ body {
     grid-auto-flow: row dense;
 }
 
+.card {
+    padding: 28px;
+}
+
 .card h2 {
     font-weight: 600;
     color: var(--Very-Dark-Blue);
     font-size: 20px;
+    line-height: 30px;
 }
 
 .card p {
     font-weight: 400;
     color: var(--Very-Dark-Blue);
     font-size: 13px;
+    line-height: 23px;
 }
 
 header {
