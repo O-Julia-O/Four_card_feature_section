@@ -33,12 +33,36 @@ body {
 .cards {
     display: grid;
     grid-auto-flow: row dense;
+    gap: 24px;
 }
 
 .card {
     padding: 28px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 8px;
+}
+
+.card .image {
+    display: flex;
+    align-content: flex-end;
+    justify-content: flex-end;
+}
+
+.supervisor {
+    border-top: 4px solid var(--Cyan);
+}
+
+
+.builder {
+    border-top: 4px solid var(--Red);
+}
+
+.karma {
+    border-top: 4px solid var(--Orange);
+}
+
+.calculator {
+    border-top: 4px solid var(--Blue);
 }
 
 .card h2 {
@@ -57,6 +81,7 @@ body {
 
 header {
     text-align: center;
+    margin-bottom: 76px;
 }
 
 .header__h1 {
