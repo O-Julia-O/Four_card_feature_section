@@ -124,6 +124,8 @@ header {
         grid-template-areas:
         "supervisor builder calculator"
         "supervisor karma calculator";
+
+        margin: 0;
     }
 
     h2 {
