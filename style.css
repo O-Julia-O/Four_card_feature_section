@@ -27,7 +27,7 @@ body {
     height: 100vh;
     display: grid;
     justify-content: center;
-    padding: 85px 32px;
+    
 }
 
 .header__description {
@@ -40,6 +40,7 @@ body {
     gap: 24px;
     align-items: center;
     justify-items: center;
+    margin: 85px 32px;
 }
 
 .card {
