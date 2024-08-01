@@ -99,7 +99,7 @@ header {
 
 .header__h1 {
     color: var(--Very-Dark-Blue);
-    font-size: 36px;
+    font-size: clamp(24px, 4vw,36px);
     font-weight: 600;
    letter-spacing: 0.25px;
 }
@@ -107,7 +107,7 @@ header {
 .header__text {
     letter-spacing: 0.25px;
     font-weight: 200;
-    font-size: 36px;
+    font-size: clamp(24px, 4vw,36px);
     color: var(--Very-Dark-Blue);
 }
 
