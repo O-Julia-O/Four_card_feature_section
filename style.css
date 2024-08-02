@@ -37,7 +37,8 @@ body {
 }
 
 main {
-    padding: 85px 32px 78px;
+    padding-right: 32px;
+    padding-left: 32px;
 }
 
 ul {
@@ -99,6 +100,7 @@ header {
     margin: auto;
     text-align: center;
     margin-bottom: 76px;
+    margin-top: 85px;
     max-width: 540px;
 }
 
@@ -130,6 +132,10 @@ header {
 @media only screen and (min-width: 768px) {
     main {
         padding: 0;
+    }
+
+    header {
+        margin-top: 80px;
     }
 
     ul {
