@@ -34,6 +34,8 @@ Users should be able to:
 
 ## My process
 
+For changing size of fonts I used CSS function clamp(). It was used svgs container and after put it in svg-use block.
+
 ### Built with
 
 - Semantic HTML5 markup
