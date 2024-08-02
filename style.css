@@ -37,8 +37,7 @@ body {
 }
 
 main {
-    padding-right: 32px;
-    padding-left: 32px;
+    padding: 25px 32px;
 }
 
 ul {
@@ -99,9 +98,8 @@ li p {
 header {
     margin: auto;
     text-align: center;
-    margin-bottom: 76px;
-    margin-top: 85px;
-    max-width: 540px;
+    padding-bottom: 76px;
+    max-width: 33.75rem;
 }
 
 .header__h1 {
@@ -130,14 +128,6 @@ header {
 }
 
 @media only screen and (min-width: 768px) {
-    main {
-        padding: 0;
-    }
-
-    header {
-        margin-top: 80px;
-    }
-
     ul {
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr;
