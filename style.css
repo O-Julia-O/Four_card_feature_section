@@ -20,6 +20,8 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
+
+    list-style-type: none;
 }
 
 body {
@@ -34,16 +36,19 @@ body {
     margin-top: 16px;
 }
 
-.cards {
+main {
+    padding: 85px 32px 78px;
+}
+
+ul {
     display: grid;
     grid-auto-flow: row dense;
     gap: 24px;
     align-items: center;
     justify-items: center;
-    margin: 85px 32px;
 }
 
-.card {
+li {
     padding: 28px;
     border-top: 4px solid;
     box-shadow: 0 15px 30px -11px rgba(131, 167, 210, 0.500);
@@ -52,7 +57,7 @@ body {
     max-height: 250px;
 }
 
-.card .image {
+li .image {
     display: flex;
     justify-content: flex-end;
     margin-top: 33px;
@@ -76,14 +81,14 @@ body {
     border-color: var(--Blue);
 }
 
-.card h2 {
+li h2 {
     font-weight: 600;
     color: var(--Very-Dark-Blue);
     font-size: 20px;
     line-height: 30px;
 }
 
-.card p {
+li p {
     font-weight: 400;
     color: var(--Grayish-Blue);
     font-size: 13px;
@@ -99,7 +104,7 @@ header {
 
 .header__h1 {
     color: var(--Very-Dark-Blue);
-    font-size: 36px;
+    font-size: clamp(24px, 4vw,36px);
     font-weight: 600;
    letter-spacing: 0.25px;
 }
@@ -107,7 +112,7 @@ header {
 .header__text {
     letter-spacing: 0.25px;
     font-weight: 200;
-    font-size: 36px;
+    font-size: clamp(24px, 4vw,36px);
     color: var(--Very-Dark-Blue);
 }
 
@@ -117,13 +122,24 @@ header {
     color: var(--Grayish-Blue);
 }
 
+.icon {
+    width: 64px;
+    height: 64px;
+}
+
 @media only screen and (min-width: 768px) {
-    .cards {
+    main {
+        padding: 0;
+    }
+
+    ul {
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr;
         grid-template-areas:
         "supervisor builder calculator"
         "supervisor karma calculator";
+
+        margin: 0 ;
     }
 
     h2 {
